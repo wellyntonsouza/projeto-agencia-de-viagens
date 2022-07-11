@@ -14,9 +14,109 @@ Faça as formatações de acordo com a paleta de cores escolhida.
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <title>Home - Agência de Viagens</title>
 </head>
 <body>
+  <header>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light shadow bg-white"> <!-- arrumar cor background e letras-->
+      <a class="navbar-brand" href="#">Decolas</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Minha Conta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Meus Pedidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="promocoes.html" target="_blank">Promoções</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fale Conosco</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   
+  </header>
+ 
+  <main>
+    <!--Simular que está a ir pra Arraial do Cabo - RJ-->
+    <div id="busca">
+    <div class="container">
+    <h1>PASSAGENS AÉREAS</h1>
+      <div class="style-busca">
+        <form>
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Onde você está?">
+            </div>
+            <div class="col">
+            <input type="text" class="form-control" placeholder="Para onde você vai?">
+            </div>
+          <button type="submit"><a href="destinos.html" target="_blank">BUSCAR PASSAGENS</a> </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+    <div class="container" id="promo">
+      <div class="text">
+        <h2>PASSAGENS COM ATÉ 40% DE DESCONTO</h2>
+      </div>
+      <div id="cards">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/fortal.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Fortaleza - CE</h5>
+            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/arraial.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Arraial do Cabo - RJ</h5>
+            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+            <a href="#" class="btn btn-primary">Ver Mais</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/natal.jpg" alt="Imagem de capa do card">
+          <div class="card-body">
+            <h5 class="card-title">Natal - RN</h5>
+            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+            <a href="#" class="btn btn-primary">Ver Mais</a>
+          </div>
+        </div>
+      </div>
+      <button><a target="_blank" href="promocoes.html">Veja mais</a></button>
+    </div>
+
+  </main>
+ 
+  <footer>
+    <hr>
+
+    <div class="text" id="fim">
+      <img src="img/arraial.jpg" alt="">
+      <div>
+      <strong>DESCOLAS VIAGENS E TURISMO LTDA.</strong><br>
+      <p>CNPJ XX.XXX.XXX/XXXX-XX<br>Rua xxxx xxxx xxxx, xxx - xxxx xxx<br>CEP: XXXXX-XXX, Cidade/UF</p>
+    </div>
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
