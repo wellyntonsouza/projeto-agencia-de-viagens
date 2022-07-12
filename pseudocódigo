@@ -1,0 +1,60 @@
+Algoritmo "cadastro e menu - atividade 1 recode"
+
+Var
+   cliente:vetor[1..3] de caractere
+   destino:vetor[1..3] de caractere
+   i: inteiro
+   a, b: logico
+   opcao, nome: caractere
+   opcaovalida: logico
+
+
+Inicio
+      para i de 1 ate 3 faca
+           escreval("Por favor, informe o nome do cliente.")
+           leia(cliente[i])
+           escreval("Por favor, informe o destino desejado.")
+           leia(destino[i])
+           limpatela
+      fimpara
+
+      repita
+      escreval("O que deseja consultar?")
+      escreval("(a) - Todos/as clientes e seus respectivos destinos")
+      escreval("(b) - O destino de um/uma cliente específico/a")
+      leia(opcao)
+      limpatela
+      
+      opcaovalida <- verdadeiro
+      se(opcao = "a") entao
+         a <- verdadeiro
+      para i <- 1 ate 3 faca
+      escreval("O/A cliente ", cliente[i], " tem como destino ", destino[i])
+      fimpara
+      senao
+
+      se(opcao = "b") entao
+               b <- verdadeiro
+
+      escreval("Digite o nome do cliente")
+      leia(nome)
+      limpatela
+      
+      i<-1
+      enquanto (i < 3) e (cliente[i] <> nome) faca
+      i<-i+1
+      fimenquanto
+
+      se cliente[i] = nome entao
+         escreval("O referido cliente tem como destino ", destino[i])
+      senao
+         escreval("Cliente não encontrado na lista")
+      senao
+      opcaovalida <- falso
+      escreval("Opção inválida")
+      fimse
+      fimse
+      fimse
+   
+      ate(opcaovalida = verdadeiro)
+FIMALGORITMO
