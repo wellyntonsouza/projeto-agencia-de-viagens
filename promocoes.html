@@ -4,9 +4,138 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
   <title>Promoções</title>
 </head>
 <body>
-  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In nesciunt delectus accusantium doloremque dignissimos laudantium dicta a velit suscipit praesentium, asperiores, saepe corrupti accusamus recusandae eum voluptatem nihil cum enim?</p>
+  <header>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light shadow bg-white">
+      <a class="navbar-brand" href="home.html">
+      <img src="img/logo1.png" alt="" width="55" height="55">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Minha Conta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Minhas viagens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="promocoes.html" target="_blank">Promoções</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html" target="_blank">Fale Conosco</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  
+  </header>
+
+  <div class="jumbotron">
+    <h1>PROMOÇÕES DE ATÉ 40% PARA O MÊS DE JULHO*</h1>
+    <hr>
+  </div>
+
+  <main id="cards-promo">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="img/natal.jpg" class="card-img-top" alt="Foto do Morro do Careca, em praia de Natal, capital de Rio Grande do Norte">
+          <div class="card-body">
+            <h5 class="card-title">NATAL - RN</h5>
+            <p class="card-text">Aqui você encontrará praias bonitas no meio urbano, mas também as maravilhas das áreas litorâneas!</p>
+            <h6>R$ 758,00</h6>
+            <p>R$ 644,30</p>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/arraial.jpg" class="card-img-top" alt="Foto da praia brava, em Arraial do Cabo">
+          <div class="card-body">
+            <h5 class="card-title">ARRAIAL DO CABO - RJ</h5>
+            <p class="card-text">Pequena cidade com nove belíssimas praias, daquelas com água cristalina, areia branca e muito sol!</p>
+            <h6>R$ 574,27</h6>
+            <p>R$ 215,35</p>
+            <a href="destinos.html" target="_blank" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/fortal.jpg" class="card-img-top" alt="Foto de praia urbana de Fortaleza, capital de Ceará">
+          <div class="card-body">
+            <h5 class="card-title">FORTALEZA - CE</h5>
+            <p class="card-text">Apresenta o melhor dos dois mundos: área urbana bem estuturada e praias maravilhosas.</p>
+            <h6>R$ 858,27</h6>
+            <p>R$ 674,35</p>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/salvador.jpeg" class="card-img-top" alt="Salvador - BA">
+          <div class="card-body">
+            <h5 class="card-title">SALVADOR - BA</h5>
+            <p class="card-text">Uma das mais históricas cidades do Brasil, oferece também uma culinária singular.</p>
+            <h6>R$ 711,00</h6>
+            <p>R$ 653,15</p>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/rio.jpg" class="card-img-top" alt="Rio de Janeiro - RJ">
+          <div class="card-body">
+            <h5 class="card-title">RIO DE JANEIRO - RJ</h5>
+            <p class="card-text">Considerada uma das cidades mais bonitas do mundo, o Rio de Janeiro oferece praias lindas e boa vida noturna.</p>
+            <h6>R$ 865,21</h6>
+            <p>R$ 742,15</p>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="img/curitiba.jpg" class="card-img-top" alt="Curitiba - PR">
+          <div class="card-body">
+            <h5 class="card-title">CURITIBA - PR</h5>
+            <p class="card-text">Indicada para aqueles que querem estar no ponto de encontro entre ambiente bucólico e urbano.</p>
+            <h6>R$ 864,56</h6>
+            <p>R$ 746,15</p>
+            <a href="#" class="btn btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <hr>
+
+    <div class="text" id="fim">
+      <img src="img/logo1.png" alt="">
+      <div>
+      <strong>BTRIP VIAGENS E TURISMO LTDA.</strong><br>
+      <p>CNPJ XX.XXX.XXX/XXXX-XX<br>Rua xxxx xxxx xxxx, xxx - xxxx xxx<br>CEP: XXXXX-XXX, Cidade/UF</p>
+    </div>
+    </div>
+  </footer>
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>

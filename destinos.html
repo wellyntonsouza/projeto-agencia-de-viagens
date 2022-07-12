@@ -4,9 +4,109 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Arraial do Cabo - Pacotes</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Passagens para Arraial do Cabo - RJ</title>
 </head>
 <body>
+  <header>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light shadow bg-white">
+      <a class="navbar-brand" href="home.html">
+      <img src="img/logo1.png" alt="" width="55" height="55">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Minha Conta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Minhas viagens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="promocoes.html" target="_blank">Promoções</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html" target="_blank">Fale Conosco</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   
+  </header>
+  <main>
+  
+    <div class="jumbotron" id="jumb">
+      <div id="text">
+      <h1><strong>Arraial do Cabo</strong></h1>
+      <hr>
+      <p><strong>Arraial é uma pequena cidade com nove belíssimas praias, daquelas com água cristalina,<br> areia branca, muito sol e com um dos mais belos nascer do sol!</p>
+    </div>
+    </div>
+    <div id="tabela">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Empresas</th>
+          <th>Horário de Saída</th>
+          <th>Horário de Chegada</th>
+          <th>Preço por adulto</th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider">
+        <tr>
+          <th>EMPRESA X</th>
+          <td>08:00</td>
+          <td>23:00</td>
+          <td>R$ 215,35</td>
+        </tr>
+        <tr>
+          <th>EMPRESA Y</th>
+          <td>12:00</td>
+          <td>02:40</td>
+          <td>R$ 235,35</td>
+        </tr>
+        <tr>
+          <th>EMPRESA Z</th>
+          <td>12:00</td>
+          <td>23:35</td>
+          <td>R$ 218,35</td>
+        </tr>
+      </tbody>
+      <tfoot><strong>
+       Saída de Campinas com destino a Arraial do Cabo
+      </strong></tfoot>
+    </table>
+    </div>
+    <div id="selecao">
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Definir opção</option>
+      <option value="1">Empresa X</option>
+      <option value="2">Empresa Y</option>
+      <option value="3">Empresa Z</option>
+    </select>
+    <button type="submit">Selecionar</button>
+  </div>
+  </main>
+
+
+  <footer>
+    <hr>
+    <div class="text" id="fim">
+      <img src="img/logo1.png" alt="">
+      <div>
+      <strong>BTRIP VIAGENS E TURISMO LTDA.</strong><br>
+      <p>CNPJ XX.XXX.XXX/XXXX-XX<br>Rua xxxx xxxx xxxx, xxx - xxxx xxx<br>CEP: XXXXX-XXX, Cidade/UF</p>
+    </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
 </body>
 </html>
