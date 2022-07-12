@@ -10,7 +10,7 @@ main{
 
 #busca{
   background-image: url(img/praia.jpg);
-  margin-bottom: 32px;
+  margin-top: 81px;
   height: 450px;
   display: flex;
   align-items: center;
@@ -122,7 +122,7 @@ button:hover{
 .jumbotron{
   background-color: rgb(24, 102, 192);
   padding: 50px;
-  margin-top: 56px;
+  margin-top: 81px;
   border-radius: 0;
 }
 
