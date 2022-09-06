@@ -1,51 +1,63 @@
 body{
-  margin: 0;
   min-height: 100vh;
+  min-width: 100vh;
+  margin: auto;
+  min-width: 320px;
+  max-width: 1000px;
 }
 
+.homepage{
+  background-image: url('img/praia2.jpg');
+  position:absolute;
+  background-repeat: no-repeat;
+  background-size:100%;
+  bottom: 0;
+  color: black;
+  left: 0;
+  overflow: auto;
+  padding: 3em;
+  right: 0;
+  text-align: center;
+  top: 0;
+  background-size: cover;
+  }
 
-main{
-  margin-top: 56px;
-}
-
-#busca{
-  background-image: url(img/praia.jpg);
-  margin-top: 81px;
-  height: 450px;
-  display: flex;
-  align-items: center;
-}
-
-main .container{
-  padding: 50px;
-  background-color: rgba(255, 255, 255, 0.856);
+.homepage .container{
+  margin: 200px auto;
+  background-color: rgba(195, 195, 195, 0.856);
   border-radius: 45px;
+  padding: 60px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; 
 }
 
 h1{
-  color: rgb(16, 65, 109);
+  color: rgb(255, 255, 255);
   margin-bottom: 25px;
 }
 
-#cards{
+.cards{
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.card{
-  margin: 45px;
+.row{
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#promo{
-  background-color: rgba(137, 43, 226, 0);
-  border-radius: 0;
-  border-style: none;
+footer{
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 footer hr{
-  width: 800px;
   height: 0px;
   margin: 0 auto 8px;
   border: 1px solid #b1bbc4
@@ -53,45 +65,67 @@ footer hr{
 
 #fim{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  margin: 32px 450px 0 450px;
+  margin: 32px  0;
+  width: 100%;
 }
+
 footer img{
   width: 200px;
 }
 
-#jumb{
-  background-image: url(img/pexels-victor-freitas-1072839.jpg);
-  height: 400px;
-}
-
-#text{
-  padding: 50px;
-  align-items: flex-start;
-  width: auto;
-  color: rgb(255, 136, 0);
-  background-color: rgba(255, 255, 255);
-  font-size: 20px;
-}
-
-#tabela{
+.destinopage .container{
+  margin: 125px auto 50px;
+  background-color: rgba(195, 195, 195, 0.856);
+  border-radius: 45px;
+  padding: 60px;
   display: flex;
-  width: 800px;
   flex-direction: column;
-  align-items: center;
-  margin: auto;
-  border: solid 1px rgb(129, 126, 126);
-  border-radius: 5px;
+  align-items: center; 
 }
 
-#selecao{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: stretch;
-  margin: 10px 465px 100px 0;
+.destinopage{
+  background: rgb(131,58,180);
+  background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(62,29,253,1) 50%, rgba(252,176,69,1) 100%);
+}
+.container{
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,0.7371323529411764) 34%, rgba(252,155,70,0.6418942577030813) 100%);
+}
+
+.container h4{
+  font-size: 35px;
+}
+
+.table-responsive{
+  width: 75% !important;
+  margin: 50px auto;
+  font-size: 25px;
+  border-radius: 15px;
+} 
+
+tfoot{
+  font-size: 60px!important;
+}
+
+.form-select{
+  width: 50%;
+  margin-bottom: 5px;
+}
+
+.promopage{
+  background: rgb(131,58,180);
+  background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(62,29,253,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.promopage .jumbotron-fluid{
+  margin: 150px auto 100px;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,0.7371323529411764) 34%, rgba(252,155,70,0.6418942577030813) 100%);
+  border-radius: 20px;
+  padding: 25px;
+  text-align: center;
 }
 
 button{
@@ -99,7 +133,8 @@ button{
   background-color: rgb(228, 141, 59);
   text-decoration: none;
   border: 1px;
-  padding: 10px;
+  padding: 15px;
+
 }
 
 button:hover{
@@ -111,43 +146,23 @@ button:hover{
   border-radius: 5px;
 }
 
-#cards-promo{
-  margin: 56px 250px 0 250px;
-}
-
-.card-body h6{
-  text-decoration: line-through;
-}
-
-.jumbotron{
-  background-color: rgb(24, 102, 192);
-  padding: 50px;
-  margin-top: 81px;
-  border-radius: 0;
-}
-
-.jumbotron h1{
-  color: orange;
-}
-
 #contato{
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 75px;
+  text-align: center;
+  margin: 100px auto 0;
 }
 
-#contato .mb-3{
-  width: 450px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#contato h1{
+  color: black;
 }
 
 #contato button{
   margin-top: 25px;
   width: 350px;
+  background-color: rgb(228, 141, 59);
 }
 
 .modal{
