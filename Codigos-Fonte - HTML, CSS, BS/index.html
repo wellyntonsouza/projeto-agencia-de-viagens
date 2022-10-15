@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>BTRIP - Agência de Viagens</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="homepage">
+
+  <header>
+    <nav class="navbar navbar-light bg-light shadow fixed-top">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1"><a href="index.html">
+            <img src="img/logo1.png" alt="" width="65" height="65"></a></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><span
+            class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">MENU</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><a class="nav-link" href="index.html">Página Inicial</a></li>
+              <li class="list-group-item"><a class="nav-link" href="#"></a>Minha Conta</li>
+              <li class="list-group-item"><a class="nav-link" href="destinos.html" target="_blank">Destinos</a></li>
+              <li class="list-group-item"><a class="nav-link" href="promocoes.html" target="_blank">Promoções</a></li>
+              <li class="list-group-item"><a class="nav-link" href="contato.html" target="_blank">Fale Conosco</a></li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!--Simular que está a ir pra Arraial do Cabo - RJ-->
+    <div class="container">
+      <h1>PASSAGENS AÉREAS</h1>
+      <form class="row row-cols-lg-auto g-3 align-items-center">
+        <div class="col-12">
+          <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+          </div>
+        </div>
+        <form class="row row-cols-lg-auto g-3 align-items-center">
+          <div class="col-12">
+            <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+            <div class="input-group">
+              <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit"><a href="destinos.html" target="_blank">BUSCAR PASSAGENS</a></button>
+          </div>
+        </form>
+    </div>
+
+    <div class="cards">
+      <h1>PASSAGENS COM ATÉ 40% DE DESCONTO!</h1>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img class="card-img" src="img/fortal.jpg" alt="Imagem de capa do card">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Fortaleza - CE</h5>
+              <p class="card-text">Apresenta o melhor dos dois mundos: área urbana bem estuturada e praias maravilhosas.
+              </p>
+              <a href="#" class="btn btn-primary">Ver mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img class="card-img-top" src="img/arraial.jpg" alt="Imagem de capa do card">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Arraial do Cabo - RJ</h5>
+              <p class="card-text">Arraial é uma pequena cidade com nove belíssimas praias, daquelas com água
+                cristalina, areia branca, muito sol e com um dos mais belos nascer do sol!</p>
+              <a href="destinos.html" target="_blank" class="btn btn-primary">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img class="card-img-top" src="img/natal.jpg" alt="Imagem de capa do card">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Natal - RN</h5>
+              <p class="card-text">Aqui você encontrará praias bonitas no meio urbano, mas também as maravilhas das
+                áreas litorâneas!</p>
+              <a href="#" class="btn btn-primary">Ver Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      <hr>
+      <div class="text" id="fim">
+        <img src="img/logo1.png" alt=""><br />
+        <strong>BTRIP VIAGENS E TURISMO LTDA.</strong><br>
+        <p>CNPJ XX.XXX.XXX/XXXX-XX<br>Rua xxxx xxxx xxxx, xxx - xxxx xxx<br>CEP: XXXXX-XXX, Cidade/UF</p>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
