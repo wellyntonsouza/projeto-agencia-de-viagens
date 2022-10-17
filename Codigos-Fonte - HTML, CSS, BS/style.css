@@ -1,154 +1,6 @@
-body{
-  min-height: 100vh;
-  min-width: 100vh;
-  margin: auto;
-  min-width: 320px;
-  max-width: 1000px;
-}
+@charset "UTF-8";
 
-.homepage .container{
-  margin: 200px auto;
-  background-color: rgba(195, 195, 195, 0.856);
-  border-radius: 45px;
-  padding: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-}
-
-h1{
-  color: rgb(255, 255, 255);
-  margin-bottom: 25px;
-}
-
-.cards{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.row{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-footer{
-  display: flex;
-  width: auto;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-footer hr{
-  height: 0px;
-  margin: 0 auto 8px;
-  border: 1px solid #b1bbc4
-}
-
-#fim{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 32px  0;
-  width: 100%;
-}
-
-footer img{
-  width: 200px;
-}
-
-.destinopage .container{
-  margin: 125px auto 50px;
-  background-color: rgba(195, 195, 195, 0.856);
-  border-radius: 45px;
-  padding: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-}
-
-.destinopage{
-  background: rgb(131,58,180);
-  background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(62,29,253,1) 50%, rgba(252,176,69,1) 100%);
-}
-.container{
-  background: rgb(63,94,251);
-  background: radial-gradient(circle, rgba(63,94,251,0.7371323529411764) 34%, rgba(252,155,70,0.6418942577030813) 100%);
-}
-
-.container h4{
-  font-size: 35px;
-}
-
-.table-responsive{
-  width: 75% !important;
-  margin: 50px auto;
-  font-size: 25px;
-  border-radius: 15px;
-} 
-
-tfoot{
-  font-size: 60px!important;
-}
-
-.form-select{
-  width: 50%;
-  margin-bottom: 5px;
-}
-
-.promopage{
-  background: rgb(131,58,180);
-  background: linear-gradient(180deg, rgba(131,58,180,1) 0%, rgba(62,29,253,1) 50%, rgba(252,176,69,1) 100%);
-}
-
-.promopage .jumbotron-fluid{
-  margin: 150px auto 100px;
-  background: rgb(63,94,251);
-  background: radial-gradient(circle, rgba(63,94,251,0.7371323529411764) 34%, rgba(252,155,70,0.6418942577030813) 100%);
-  border-radius: 20px;
-  padding: 25px;
-  text-align: center;
-}
-
-button{
-  border-radius: 5px;
-  background-color: rgb(228, 141, 59);
-  text-decoration: none;
-  border: 1px;
-  padding: 15px;
-
-}
-
-button:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  background-color: rgb(255, 193, 23);
-}
-
-.form-select{
-  border-radius: 5px;
-}
-
-#contato{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 75px;
-  text-align: center;
-  margin: 100px auto 0;
-}
-
-#contato h1{
-  color: black;
-}
-
-#contato button{
-  margin-top: 25px;
-  width: 350px;
-  background-color: rgb(228, 141, 59);
-}
-
+/*CSS menu nav */
 .modal{
   width: 300px;
 }
@@ -159,4 +11,148 @@ button:hover{
 
 .list-group-item:hover{
   background-color: rgba(255, 183, 101, 0.65);
+}
+
+/*CSS página inicial */
+.homepage .container{
+  margin: 200px auto;
+  padding: 60px;
+  border-radius: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,0.7371323529411764) 34%, rgba(252,155,70,0.6418942577030813) 100%);
+}
+
+div.container h1{
+  color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+}
+
+footer{
+  display: flex;
+  width: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+footer hr{
+  margin: 0 auto 25px;
+  border: 1px solid #6b6f73
+}
+
+footer img{
+  width: 200px;
+}
+
+/*CSS login page*/
+body#login{
+  background-color: rgb(14, 65, 153);
+  height: 100vh;
+  width: 100vw;
+}
+
+.mainlogin{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+section#login{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 250px;
+  height: 600px;
+  border-radius: 15px;
+  overflow: hidden; /* means that everything that's outside the div will be hidden so that the border-radius can appear*/
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: width .3s, heigh .3s;
+  transition-timing-function: ease;
+}
+
+section#login > div#imglogin{
+  display: block;
+  background: #090979 url(img/imglogin.jpg);
+  height: 200px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+section#login > div#formulariologin{
+  display: block;
+  justify-content: center;
+  padding: 15px;
+}
+
+div#formulariologin > h1{
+  text-align: center;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+form > div.campo{
+  display: block;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+
+div.campo > label{
+  display: none;
+}
+
+form > button{
+  display: block;
+  width: 85%;
+  height: 40px;
+  background-color: #ff9e00;
+  color: #020024;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form > button:hover{
+  background-color: #ab6a00;
+}
+
+form > a.botao{
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  text-decoration: none;
+  color: #020024;
+  margin-top: 5px;
+}
+/*CSS cadastro */
+
+body#cadastro{
+  background: rgb(2,0,36);
+  background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(255,158,0,1) 100%);
+  height: 100vh;
+  width: 100vw;
+}
+
+section#cadastro{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 250px;
+  height: 600px;
+  border-radius: 15px;
+  overflow: hidden; /* means that everything that's outside the div will be hidden so that the border-radius can appear*/
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: width .3s, heigh .3s;
+  transition-timing-function: ease;
 }
