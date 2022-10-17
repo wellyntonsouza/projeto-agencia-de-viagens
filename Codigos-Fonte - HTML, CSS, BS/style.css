@@ -6,22 +6,6 @@ body{
   max-width: 1000px;
 }
 
-.homepage{
-  background-image: url('img/praia2.jpg');
-  position:absolute;
-  background-repeat: no-repeat;
-  background-size:100%;
-  bottom: 0;
-  color: black;
-  left: 0;
-  overflow: auto;
-  padding: 3em;
-  right: 0;
-  text-align: center;
-  top: 0;
-  background-size: cover;
-  }
-
 .homepage .container{
   margin: 200px auto;
   background-color: rgba(195, 195, 195, 0.856);
