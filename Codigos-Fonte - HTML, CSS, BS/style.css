@@ -78,7 +78,7 @@ section#login{
 
 section#login > div#imglogin{
   display: block;
-  background: #090979 url(img/imglogin.jpg);
+  background: #090979 url(img/login.jpg);
   height: 200px;
   background-size: cover;
   background-position: bottom;
