@@ -156,3 +156,64 @@ section#cadastro{
   transition: width .3s, heigh .3s;
   transition-timing-function: ease;
 }
+
+/*css destino */
+#arraial  {
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,0.7371323529411764) 34%, rgba(252,155,70,0.6418942577030813) 100%);
+  border-radius: 15px;
+  padding: 25px;
+  margin: 125px auto;
+  text-align: center;
+}
+
+.table-responsive{
+  width: 75% !important;
+  margin: 50px auto;
+  font-size: 25px;
+  border-radius: 15px;
+} 
+
+tfoot{
+  font-size: 60px!important;
+}
+
+.form-select{
+  width: 50%;
+  margin-bottom: 5px;
+}
+
+/* css contato */
+#contato{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 75px;
+  text-align: center;
+  margin: 100px auto 0;
+}
+
+#contato h1{
+  color: black;
+}
+
+#contato button{
+  margin-top: 25px;
+  width: 350px;
+  background-color: rgb(228, 141, 59);
+}
+
+/* css promocoes*/
+
+.promopage .jumbotron-fluid{
+  margin: 150px auto 100px;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,0.7371323529411764) 34%, rgba(252,155,70,0.6418942577030813) 100%);
+  border-radius: 20px;
+  padding: 25px;
+  text-align: center;
+}
+
+.container{
+  padding: 50px;
+}
