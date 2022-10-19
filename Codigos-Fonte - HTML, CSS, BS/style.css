@@ -148,7 +148,7 @@ section#cadastro{
   transform: translate(-50%, -50%);
   background-color: white;
   width: 250px;
-  height: 660px;
+  height: 700px;
   border-radius: 15px;
   overflow: hidden; /* means that everything that's outside the div will be hidden so that the border-radius can appear*/
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
