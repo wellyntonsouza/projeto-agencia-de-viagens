@@ -45,8 +45,93 @@
     </div>
   </header>
   
-  <main id="cadastro">
+  <main id="mainCadastro">
     <section id="cadastro">
+      <div id="formCadastro">
+        <h1>Faça seu Cadastro</h1>
+        <form action="" method="post">
+          <div class="campo">
+            <input type="text" name="nome" id="inome" placeholder="Seu Nome Completo" required maxlength="45">
+            <label for="inome">Nome</label>
+          </div>
+          <div class="campo">
+            <input type="text" name="cpf" id="icpf" placeholder="CPF" required maxlength="11">
+            <label for="icpf">CPF</label>
+          </div>
+          <div class="campo">
+            <input type="text" name="rg" id="irg" placeholder="RG" required maxlength="9">
+            <label for="irg">RG</label>
+          </div>
+          <div class="campo">
+            <input type="text" name="rua" id="irua" placeholder="Logradouro" required maxlength="45">
+            <label for="irua">Logradouro</label>
+          </div>
+          <div class="campo">
+            <input type="number" name="numero" id="inumero" placeholder="Número">
+            <label for="inumero">Número</label>
+          </div>
+          <div class="campo">
+            <input type="text" name="cidade" id="icidade" placeholder="Cidade" required maxlength="45">
+            <label for="icidade">Cidade</label>
+          </div>
+          <div class="campo">
+          <select name="estado" id="iestado" placeholder="Estado">
+            <option selected>Selecione seu Estado</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AP">AP</option>
+            <option value="AM">AM</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MT">MT</option>
+            <option value="MS">MS</option>
+            <option value="MG">MG</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PR">PR</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SP">SP</option>
+            <option value="SE">SE</option>
+            <option value="SE">TO</option>
+          </select>
+          <label for="iestado">Estado</label>
+          </div>
+          <div class="campo">
+            <input type="text" name="complemento" id="icomplemento" placeholder="Complemento" required maxlength="45">
+            <label for="icomplemento">Complemento</label>
+          </div>
+          <div class="campo">
+            <input type="text" name="cep" id="icep" placeholder="CEP" required maxlength="45">
+            <label for="icep">CEP</label>
+          </div>
+          <div class="campo">
+            <input type="text" name="telefone" id="itelefone" placeholder="Telefone (DDD+Número)" required maxlength="11">
+            <label for="itelefone">Telefone</label>
+          </div>
+          <div class="campo">
+            <input type="email" name="email" id="iemail" placeholder="E-mail" required maxlength="45">
+            <label for="iemail">E-mail</label>
+          </div>
+          <div class="campo">
+            <input type="password" name="senha" id="isenha" placeholder="Senha" required maxlength="45">
+            <label for="isenha">Senha</label>
+          </div>
+          <button type="submit" value="Cadastrar">Cadastrar</button>
+          <p>Já possui uma conta? </p>
+          <a class="botao" href="login.html">Acesse sua conta aqui!</a>
+        </form>
+        </div>
 
     </section>
   </main>
