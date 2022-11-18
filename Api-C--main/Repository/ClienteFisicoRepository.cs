@@ -1,4 +1,4 @@
-using DevTour.Database;
+using agenciaviagens3.Database;
 using Microsoft.EntityFrameworkCore;
 using Model;
 

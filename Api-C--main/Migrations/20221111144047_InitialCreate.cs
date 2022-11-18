@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace DevTour.Migrations
+namespace agenciaviagens3.Migrations
 {
     public partial class InitialCreate : Migration
     {

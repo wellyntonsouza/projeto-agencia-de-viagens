@@ -1,5 +1,5 @@
-using DevTour.Database;
-using DevTour.Repository;
+using agenciaviagens3.Database;
+using agenciaviagens3.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -2,7 +2,7 @@
   "version": 2,
   "dgSpecHash": "4Nm9dE1Ecqye+TlA5Wgu3OMUF5uanFDTpNlHFAiLVS0h0iqRrcCM0p13pKn+yUnUojXFAemNZsS0hAxufcVHSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Remakker\\Documents\\Projetos\\EntregaMod6\\DevTour\\DevTour.csproj",
+  "projectFilePath": "C:\\Users\\Remakker\\Documents\\Projetos\\EntregaMod6\\agenciaviagens3\\agenciaviagens3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Remakker\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Remakker\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",

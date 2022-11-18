@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Remakker\\Documents\\Projetos\\EntregaMod6\\DevTour\\DevTour.csproj",
+  "FilePath": "c:\\Users\\Remakker\\Documents\\Projetos\\EntregaMod6\\agenciaviagens3\\agenciaviagens3.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16295,7 +16295,7 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "DevTour",
+  "RootNamespace": "agenciaviagens3",
   "Documents": [],
   "SerializationFormat": "0.2"
 }

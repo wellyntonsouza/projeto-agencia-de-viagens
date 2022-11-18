@@ -1,4 +1,4 @@
-using DevTour.Repository;
+using agenciaviagens3.Repository;
 using Microsoft.AspNetCore.Mvc;
 using Model;
 

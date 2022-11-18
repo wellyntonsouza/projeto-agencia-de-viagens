@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace DevTour.Migrations
+namespace agenciaviagens3.Migrations
 {
     public partial class AtualizaClientes : Migration
     {
